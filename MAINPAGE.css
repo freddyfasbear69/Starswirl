@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 4.5rem;
+}
+
+a {
+    font-family: 'Spline Sans', sans-serif;
+    font-size: 1.125rem;
+}
+
+a:hover {
+    color: rgb(255, 221, 0) !important;
+    transition: 0.2s;
+}
+
+p {
+    font-family: 'Spline Sans', sans-serif;
+    font-size: 1.125rem;
+}
+
+.logo img {
+    height: 32vh;
+}
+
+@media screen and (max-width:800px) {
+    .logo img {
+        height: 10vh;
+    }
+}
+
+.container1 {
+    height: 116vh;
+}
+
+.c1info {
+    margin-top: 10px;
+}
+
+/* Header and Nav */
+nav {
+    position: relative;
+    top: 0;
+}
+
+header {
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h1 {
+    position: absolute;
+    color: white;
+    font-size: 6rem;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+header img {
+    position: absolute;
+    height: 80vh;
+    object-fit: cover;
+}
+
+.overlay{
+    position: absolute;
+    height: 80vh;
+    background-color: rgba(29, 53, 108, 0.667);
+}
+
+.navbar-light{
+    background-color: transparent !important;
+}
+
+.navbar-nav{
+    display: flex;
+    align-items: center;
+}
+
+.introheader {
+    background-color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+nav .nav-link{
+    color: white;
+    font-size: 1.125rem;
+}
+
+@media screen and (max-width:600px){
+    nav .nav-link{
+        color: black;
+        font-size: 1.125rem;
+    }
+}
+
+.navbar-toggler{
+    background-color: white;
+}
