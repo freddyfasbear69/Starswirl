@@ -240,7 +240,7 @@ nav .nav-link{
     .abouttitle{
         width: 45vw;
         position: relative;
-        margin-left: 10vw;
+        margin-top: 10vh;
         top:110vh;
         text-align: left !important;
         color: white !important;
