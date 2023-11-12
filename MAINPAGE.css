@@ -169,10 +169,12 @@ nav .nav-link{
 .c1button{
     height: 9vh;
     color: black;
+    border-style: none;
 }
 
 .c2button{
     height: 9vh;
+    border-style: none;
     
 }
 
@@ -224,6 +226,7 @@ nav .nav-link{
 .c3picbutton{
     height: 60vh;
     align-items: center;
+    border-style: none;
 }
 
 .c3pic{
@@ -259,6 +262,7 @@ nav .nav-link{
 
 .container4button{
     width: 10vw;
+    border-style: none;
 }
 
 /*footer*/
