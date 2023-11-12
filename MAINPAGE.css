@@ -235,6 +235,15 @@ nav .nav-link{
     object-fit: cover;
 }
 
+@media screen and (max-width:600px){
+    .c3pic{
+        width: 100vw;
+        height: 40vh;
+        object-fit: cover;
+    }
+    
+}
+
 
 .container4box1{
     margin-bottom: 10vh;
