@@ -141,7 +141,7 @@ nav .nav-link{
     .acontainer1{
     margin-top: 55vh;
     text-align: center;
-    height: 130vh;
+    height: 150vh;
     background-color: #8487bf;
     }
     
@@ -290,13 +290,30 @@ nav .nav-link{
     object-fit: cover;
 }
 
-
-@media screen and (max-width:768px){
+@media screen and (min-width:390px){
     .gridimg{
-    height: 25vh;
-    object-fit: cover;
+        height: 20vh;
+        object-fit: cover;
+    }
 }
+
+@media screen and (min-width:414px){
+    .gridimg{
+        height: 20vh;
+        object-fit: cover;
+    }
 }
+
+@media screen and (min-width:1000px){
+    .gridimg{
+        height: 25vh;
+        object-fit: cover;
+    }
+}
+
+
+
+
 
 
 
