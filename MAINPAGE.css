@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    }
+
+h1{
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 4.5rem;
+}
+
+a{
+    font-family: 'Spline Sans', sans-serif;
+    font-size: 1.125rem;
+}
+
+a:hover{
+    color: rgb(255, 221, 0) !important;
+    transition: 0.2s;
+}
+
+p{
+    font-family: 'Spline Sans', sans-serif;
+    font-size: 1.125rem;
+}
+
+.logo img{
+    height: 32vh;
+    
+}
+
+@media screen and (max-width:800px){
+    .logo img{
+        align-items: start;
+        height: 10vh;
+    }
+    
+}
+
+/*header and nav*/
+
+nav{
+    position: relative;
+    top: 0;
+}
+
+header{
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+header h1{
+    position: absolute;
+
+    color: white;
+    font-size: 6rem;
+    font-family: Advent pro;
+    
+
+}
+
+header img{
+    position: absolute;
+    height: 80vh;
+    object-fit: cover;
+
+}
+
+.overlay{
+    position: absolute;
+    height: 80vh;
+    background-color: rgba(29, 53, 108, 0.667);
+}
+
+.navbar-light{
+    background-color: transparent !important;
+}
+
+.navbar-nav{
+    height: 32vh;
+    align-items:start;
+    
+   
+}
+
+
+
+nav .nav-link{
+    color: white;
+    font-size: 1.125rem;
+}
+
+@media screen and (max-width:600px){
+    nav .nav-link{
+        color: black;
+        font-size: 1.125rem;
+    }
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+
+/*page content*/
+
+.introheader{
+    margin-top: 45vh;
+    height: 60vh;
+    align-items: center;
+}
+
+.introheader h1{
+    /*Jewelry Collection*/
+    font-size: 4.5rem;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.introheader p{
+    /*Summer-Winter 2021*/
+    font-family:  ABeezee;
+    font-size: 1.5rem;
+}
+
+.container1{
+    background-color: #ffe26b;
+    height: 100vh;
+    align-items: center;
+}
+
+.container1 h1{  
+    font-size: 4.5rem;
+}
+
+.container1 p{
+    margin-top: 1vh;
+    width: 40vw;
+    font-size: 1.125rem;
+    text-align: justify;
+    font-family: 'Spline Sans', sans-serif;
+    
+}
+
+.c1pic{
+    height: 100vh;
+    align-items: center;
+}
+
+.c1pic img{
+    height: 80vh;
+    width: 30vw;
+    object-fit: cover;
+}
+
+
+.c1button{
+    height: 9vh;
+    color: black;
+}
+
+.c2button{
+    height: 9vh;
+}
+
+.container2{
+    background-color: #8487bf;
+    
+}
+
+.c2infopic{
+    align-items: last baseline;
+    
+}
+
+.c2infopic p{
+    /*pic b4 we offer fake jewelries*/
+    font-size: 1.125rem;
+    font-family: 'Spline Sans', sans-serif;
+    text-align: justify;
+    
+}
+
+.c2img1{
+    width: 40vw;
+    height: 55vh;
+    object-fit: cover;
+}
+
+.c2infopic2 p {
+    /*69% bullshit img*/
+    font-size: 4.5rem;
+    font-family:  ABeezee;
+}
+
+.container3{
+    align-items: center;
+    background-color: #ffe26b80;
+}
+
+.container3 h1{
+    font-size: 4.5rem;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.container3 p{
+    font-size:1.125;
+    font-family: 'Spline Sans', sans-serif;
+}
+
+.c3picbutton{
+    height: 60vh;
+    align-items: center;
+}
+
+.c3pic{
+    width: 30vw;
+    height: 50vh;
+    object-fit: cover;
+}
+
+
+.container4box1{
+    margin-bottom: 10vh;
+    align-items: center;
+
+    background-color: #ffe26b80;
+}
+
+.container4box1 h1{
+ /*NEW FUCKING ARRIVALS*/
+    font-size: 4.5rem;
+    font-family: 'Advent Pro', sans-serif;
+    text-align: center;
+}
+
+.container4box1 p{
+    font-size:1.125;
+    font-family: 'Spline Sans', sans-serif;
+    text-align: center;
+}
+
+.container4boxitems{
+    margin: 10px;
+}
+
+.container4button{
+    width: 10vw;
+}
+
+/*footer*/
+footer{   
+    background-color: rgba(29, 53, 108, 0.847);
+    padding: 20px;
+
+    color: white;
+}
+
+
+.footerlogo img{
+    height: 25vh;
+}
+
+.container5{
+    margin: 0 auto;
+}
+
+.c5boxitems{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    text-align: justify;
+}
+
+
+
+.c5boxitems h2{
+    font-weight: 800;
+    font-size: 1.5rem;
+    font-family:  ABeezee;
+}
+
+
+
+footer i{
+    letter-spacing: 1vw;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.c5footer{
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 800;
+}
+
+hr{
+    border: 3px solid white;
+}
+ 
