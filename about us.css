@@ -235,14 +235,14 @@ nav .nav-link{
 
     
 }
-
+/*Samsung S8*/
 @media screen and (min-width:360px){
     .abouttitle{
-        width: 45vw;
+        width: 40vw;
         position: relative;
         margin-top: 10vh;
-        top:110vh;
-        text-align: center !important;
+        top:100vh;
+        text-align: left !important;
         color: white !important;
 
     }
