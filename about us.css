@@ -343,11 +343,11 @@ nav .nav-link{
 
 
 .acontainer2{
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
     background-color: #ffe26b;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (min-width:412px) {
     .acontainer2{
         margin-bottom: 5vh;
         background-color: #ffe26b;
