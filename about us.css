@@ -346,14 +346,15 @@ nav .nav-link{
     background-color: #ffe26b;
 }
 
-@media screen and (min-width:412px) {
+@media screen and (min-width: 414px){
     .acontainer2{
         margin-bottom: 5vh;
         background-color: #ffe26b;
+        height: 100vh;
     }
     
+    
 }
-
 .acontainerinfo1{
     justify-content: right;
   
@@ -374,6 +375,7 @@ nav .nav-link{
 
 .acontainerinfo3{
     height: 50vh;
+    background-color: red;
     text-align: justify;
     padding: 10px;
     
