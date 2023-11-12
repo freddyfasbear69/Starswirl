@@ -63,7 +63,6 @@ header{
 
 header h1{
     position: absolute;
-
     color: white;
     font-size: 6rem;
     font-family: Advent pro;
@@ -184,7 +183,6 @@ nav .nav-link{
         position: relative;
         margin-left: 10vw;
         top:110vh;
-
         text-align: left !important;
         color: white !important;
 
@@ -236,6 +234,18 @@ nav .nav-link{
 
 
     
+}
+
+@media screen and (min-width:360px){
+    .abouttitle{
+        width: 45vw;
+        position: relative;
+        margin-left: 10vw;
+        top:110vh;
+        text-align: left !important;
+        color: white !important;
+
+    }
 }
 
 .title{
