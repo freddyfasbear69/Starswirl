@@ -345,17 +345,28 @@ nav .nav-link{
 .acontainer2{
     margin-bottom: 5vh;
     background-color: #ffe26b;
+    height:100vh;
 }
 
-@media screen and (min-width: 414px){
+@media screen and (min-width:414px){
     .acontainer2{
         margin-bottom: 5vh;
         background-color: #ffe26b;
-        height: 100vh;
+        height: 80vh;
     }
     
     
 }
+
+@media screen and (min-width:1000px) {
+    .acontainer2{
+        margin-bottom: 5vh;
+        background-color: #ffe26b;
+        height:100vh;
+    }
+    
+}
+
 .acontainerinfo1{
     justify-content: right;
   
@@ -375,7 +386,6 @@ nav .nav-link{
 
 
 .acontainerinfo3{
-    height: 50vh;
     text-align: justify;
     padding: 10px;
     
