@@ -267,7 +267,21 @@ nav .nav-link{
 
 .container4boxitems{
     margin: 10px;
+
 }
+
+.c4img{
+    object-fit: cover;
+}
+
+@media screen and (max-width:600px) {
+    .c4img{
+        height: 50vh;
+        width: 100vw;
+        object-fit: cover;
+    }
+}
+
 
 .container4button{
     width: 10vw;
