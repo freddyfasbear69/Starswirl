@@ -135,7 +135,7 @@ nav .nav-link{
     
 }
 
-
+/*iPhone XR Container Problem*/
 @media screen and (min-width:414px){
     .acontainer1{
     margin-top: 40vh;
