@@ -350,8 +350,8 @@ nav .nav-link{
 @media screen and (min-width:412px) {
     .acontainer2{
         margin-bottom: 5vh;
+        height: 10vh;
         background-color: #ffe26b;
-        height: 50vh;
     }
     
 }
