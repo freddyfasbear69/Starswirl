@@ -46,7 +46,7 @@ p{
     
 }
 
-@media screen and (max-height:1366px){
+@media screen and (min-height:1366px){
     .logo img{
         align-items: start;
         height: 10vh;
