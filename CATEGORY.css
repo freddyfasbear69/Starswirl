@@ -33,6 +33,10 @@ p{
     font-size: 1.125rem;
 }
 
+.logo{
+    display: flex;
+}
+
 .logo img{
     height: 32vh;
     
@@ -46,7 +50,15 @@ p{
     
 }
 
-
+@media screen and (min-height:1366px){
+    .logo img{
+        justify-self: flex-start;
+        align-items:first baseline;
+        height: 10vh;
+        background-color: red;
+    }
+    
+}
 
 /*header and nav*/
 
