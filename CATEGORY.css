@@ -138,6 +138,7 @@ nav .nav-link{
 @media screen and (max-width:600px) {
     .pcontainer1{
         margin-top: 70vh;
+        margin-bottom: 10vh;
     }
     
 }
