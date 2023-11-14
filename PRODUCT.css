@@ -28,6 +28,15 @@ button:hover{
 
 .modal-body{
     display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 912px){
+    .modal-body{
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
 
 
