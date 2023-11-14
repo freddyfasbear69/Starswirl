@@ -33,10 +33,7 @@ p{
     font-size: 1.125rem;
 }
 
-.logo img{
-    height: 32vh;
-    
-}
+
 
 .nav-link:hover{
     background-color: transparent;
@@ -49,9 +46,27 @@ button:hover{
     transition: transform 1.5 ease;
 }
 
+.logo{
+    display: flex;
+}
+
+.logo img{
+    height: 32vh;
+    
+}
+
 @media screen and (max-width:912px){
     .logo img{
         align-items: start;
+        height: 10vh;
+    }
+    
+}
+
+@media screen and (max-width:1366px){
+    .logo img{
+        justify-self: flex-start;
+        align-items: first baseline;
         height: 10vh;
     }
     

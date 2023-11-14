@@ -42,18 +42,32 @@ button:hover{
     transition: transform 1s ease;
 }
 
+.logo{
+    display: flex;
+}
+
 .logo img{
     height: 32vh;
     
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:912px){
     .logo img{
         align-items: start;
         height: 10vh;
     }
     
 }
+
+@media screen and (max-width:1366px){
+    .logo img{
+        justify-self: flex-start;
+        align-items: first baseline;
+        height: 10vh;
+    }
+    
+}
+
 
 /*header and nav*/
 
