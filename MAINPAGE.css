@@ -28,8 +28,10 @@ p{
     padding: 10px;
 }
 
-button{
+button:hover{
     border-style: none;
+    transform: scale(1.05);
+    transition: transform 0.3 ease;
 }
 
 .logo img{
