@@ -263,11 +263,19 @@ nav .nav-link{
  }
 
 .pcontainer2pics p{
-    height: 50vh;
+    height: 30vh;
     background-color: red;
 
 }
 
+@media screen and (max-width: 912px) {
+    .pcontainer2pics p{
+        height: 50vh;
+        background-color: red;
+    
+    }
+    
+}
 
 
 
