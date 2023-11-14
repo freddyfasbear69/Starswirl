@@ -282,14 +282,12 @@ nav .nav-link{
 @media screen and (max-width:1000px) {
     .pcontainer2pics button: {
         width: 30vw;
-    border-style: none;
+        border-style: none;
         background-color: #c2b78cFF;
         font-family: 'Spline Sans', sans-serif;
         font-size: 1.125rem;
-        color: black;
-        
-    }
-    
+        color: black;   
+    } 
 }
 
 
