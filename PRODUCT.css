@@ -8,6 +8,13 @@
     background-color: pink;
     
     }
+
+    .nav-link:hover{
+        background-color: transparent;
+        text-decoration: underline !important;
+    }
+
+
 .mcontainer1 {
     background-color: #ffe26b;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)

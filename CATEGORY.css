@@ -42,6 +42,11 @@ p{
     
 }
 
+.nav-link:hover{
+    background-color: transparent;
+    text-decoration: underline;
+}
+
 @media screen and (max-width:912px){
     .logo img{
         align-items: start;

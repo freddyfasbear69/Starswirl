@@ -49,6 +49,11 @@ nav{
     top: 0;
 }
 
+.nav-link:hover{
+    background-color: transparent;
+    text-decoration: underline;
+}
+
 header{
     position: absolute;
     display: flex;

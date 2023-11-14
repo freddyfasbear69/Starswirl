@@ -108,6 +108,11 @@ nav .nav-link{
     font-size: 1.125rem;
 }
 
+.nav-link:hover{
+    background-color: transparent;
+    text-decoration: underline !important;
+}
+
 @media screen and (max-width:600px){
     nav .nav-link{
         color: black;
