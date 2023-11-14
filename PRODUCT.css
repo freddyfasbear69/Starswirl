@@ -11,7 +11,13 @@
 
     .nav-link:hover{
         background-color: transparent;
-        
+    }
+    
+    
+    button:hover{
+        border-style: none;
+        transform: scale(1.05);
+        transition: transform 1.5 ease;
     }
 
 
