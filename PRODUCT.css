@@ -4,13 +4,18 @@
 }
 
 
-    .nav-link:hover{
+.nav-link:hover{
         background-color: transparent;
+    }
+
+button{
+        background-color: #8487bfFF;
+        border-style: none;
+        padding: 10px;
     }
     
     
-    button:hover{
-        border-style: none;
+button:hover{
         transform: scale(1.05);
         transition: transform 1.5 ease;
     }
