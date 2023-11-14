@@ -12,15 +12,7 @@
         <script src="script.js"></script>
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
-         <script>
-            function cart() {
-                if (confirm("Add this item to your cart?") == true) {
-                    alert("Successfully added to cart!");
-                } else {
-                    alert("This item was not added to your cart.");
-                }
-            }
-        </script>
+         
 
 
           <!--FONTS-->
@@ -174,7 +166,7 @@
                         ___________________________________
                         <p>5 Sizes Available</p>
                         <p>6.9 OZ.</p>
-                        <button onclick="cart()" data-bs-toggle="modal" data-bs-target="#myModal">ADD TO CART</button>
+                        <button>ADD TO CART</button>
                     </div> 
                 </div>
              </div>
@@ -195,32 +187,14 @@
                            ___________________________________
                            <p>5 Sizes Available</p>
                            <p>6.9 OZ.</p>
-                           <button onclick="cart()" data-bs-toggle="modal" data-bs-target="#myModal">ADD TO CART</button>
+                           <button>ADD TO CART</button>
 
                        </div> 
                    </div>
                 </div>
                </div>
 
-<!-- Modal ng add to cart -->
-<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Confirmation</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>Are you sure you want to add this item to your cart?</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                <button type="button" class="btn btn-primary" onclick="cart()">Add to Cart</button>
-            </div>
-        </div>
-    </div>
-</div>
-            
+
 
         <!--Footer-->
 
