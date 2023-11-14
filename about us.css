@@ -32,15 +32,7 @@ p{
     
 }
 
-@media screen and (max-width:912px){
-    .logo img{
-        align-items: start;
-        height: 10vh;
-    }
-    
-}
-
-@media screen and (min-height:1366px){
+@media screen and (max-width:800px){
     .logo img{
         align-items: start;
         height: 10vh;
@@ -106,11 +98,6 @@ header img{
 nav .nav-link{
     color: white;
     font-size: 1.125rem;
-}
-
-.nav-link:hover{
-    background-color: transparent;
-    text-decoration: underline !important;
 }
 
 @media screen and (max-width:600px){
