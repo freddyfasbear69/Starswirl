@@ -3,11 +3,6 @@
     padding: 0;
 }
 
-.body {
-    font-family: Arial, sans-serif;
-    background-color: pink;
-    
-    }
 
     .nav-link:hover{
         background-color: transparent;
@@ -31,9 +26,17 @@
      margin-bottom: 20px;
     }
 
-.profile-pic {
-    max-width: 200px;
-    border: 4px solid #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+.modal-body img{
+    width: 50vh;
+    height: 50vw;
+}
+
+@media screen and (max-width: 800px) {
+    .modal-body img{
+        width: 70vh;
+        height: 100vw;
     }
+    
+}
+
 
