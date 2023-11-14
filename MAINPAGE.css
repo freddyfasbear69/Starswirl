@@ -1,0 +1,664 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    }
+
+h1{
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 4.5rem;
+}
+
+a{
+    font-family: 'Spline Sans', sans-serif;
+    font-size: 1.125rem;
+}
+
+a:hover{
+    color: rgb(255, 221, 0) !important;
+    transition: 0.2s;
+}
+
+p{
+    font-family: 'Spline Sans', sans-serif;
+    font-size: 1.125rem;
+    padding: 10px;
+}
+
+button{
+    border-style: none;
+}
+
+.logo img{
+    height: 32vh;
+    
+}
+
+@media screen and (max-width:800px){
+    .logo img{
+        align-items: start;
+        height: 10vh;
+    }
+    
+}
+
+/*header and nav*/
+
+nav{
+    position: relative;
+    top: 0;
+}
+
+header{
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+header h1{
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 6rem;
+    font-family: Advent pro;
+    
+
+}
+
+header img{
+    position: absolute;
+    height: 80vh;
+    object-fit: cover;
+
+}
+
+.overlay{
+    position: absolute;
+    height: 80vh;
+    background-color: rgba(29, 53, 108, 0.667);
+}
+
+.navbar-light{
+    background-color: transparent !important;
+}
+
+.navbar-nav{
+    height: 32vh;
+    align-items:start;
+    
+   
+}
+
+
+
+nav .nav-link{
+    color: white;
+    font-size: 1.125rem;
+}
+
+@media screen and (max-width:600px){
+    nav .nav-link{
+        color: black;
+        font-size: 1.125rem;
+    }
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+
+/*page content*/
+
+button{
+    background-color: #8487bfFF;
+    padding: 10px;
+}
+
+.introheader{
+    margin-top: 45vh;
+    height: 60vh;
+    align-items: center;
+}
+
+@media screen and (min-width: 360px) {
+    .introheader{
+        margin-top: 60vh;
+        height: 60vh;
+        align-items: center;
+    }
+    
+    
+}
+
+@media screen and (min-width: 820px) {
+    .introheader{
+        margin-top: 40vh;
+        height: 60vh;
+        align-items: center;
+
+    }
+    
+    
+}
+
+@media screen and (min-width: 1000px) {
+    .introheader{
+        margin-top: 45vh;
+        height: 60vh;
+        align-items: center;
+    }
+    
+    
+}
+
+.introheader h1{
+    /*Jewelry Collection*/
+    font-size: 4.5rem;
+    font-family: 'Advent Pro', sans-serif;
+    text-align: center;
+}
+
+.introheader p{
+    /*Summer-Winter 2021*/
+    font-family:  ABeezee;
+    font-size: 1.5rem;
+}
+
+.container1{
+    background-color: #ffe26b;
+    height: 100vh;
+    align-items: center;
+}
+
+@media screen and (min-width:768px){
+    .container1{
+        background-color: #ffe26b;
+        height: 89vh;
+        align-items: center;
+    }
+    
+}
+
+.container1 h1{  
+    font-size: 4.5rem;
+}
+
+.container1 p{
+    margin-top: 1vh;
+    font-size: 1.125rem;
+    text-align: justify;
+    font-family: 'Spline Sans', sans-serif;
+    
+}
+
+.c1pic{
+    height: 100vh;
+    align-items: center;
+}
+
+@media screen and (min-width:768px) {
+    .c1pic{
+    height: 55vh;
+    align-items: center;
+}
+    
+}
+
+@media screen and (min-width:820px) {
+    .c1pic{
+    height: 62vh;
+    align-items: center;
+}
+    
+}
+
+
+
+
+.c1pic img{
+    height: 80vh;
+    width: 30vw;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 360px) {
+    .c1pic img{
+        height: 39vh;
+        width: 100vw;
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .c1pic img{
+        height: 35vh;
+        width: 100vw;
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width: 390px) {
+    .c1pic img{
+        height: 50vh;
+        width: 100vw;
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width: 412px) {
+    .c1pic img{
+        height: 56vh;
+        width: 100vw;
+        object-fit: cover;
+    }
+}
+
+
+@media screen and (min-width: 414px) {
+    .c1pic img{
+        height: 55vh;
+        width: 100vw;
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width: 430px) {
+    .c1pic img{
+        height: 60vh;
+        width: 100vw;
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .c1pic img{
+        height: 55vh;
+        width: 100vw;
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width: 820px) {
+    .c1pic img{
+        height: 65vh;
+        width: 100vw;
+        object-fit: cover;
+    }
+}
+
+
+
+
+@media screen and (min-width: 1000px) {
+    .c1pic img{
+        height: 80vh;
+        width: 30vw;
+        object-fit: cover;
+    }
+}
+
+.c1button{
+    height: 9vh;
+    color: black;
+    border-style: none;
+    
+}
+
+.c2button{
+    height: 9vh;
+    border-style: none;
+    
+}
+
+.container2{
+    background-color: #8487bf;
+    
+}
+
+.c2infopic{
+    align-items: last baseline;
+    
+}
+
+
+
+
+
+@media screen and (max-width: 360px) {
+    .c2infopic2 h1{
+        font-size: 4rem;
+    }
+    
+}
+
+@media screen and (max-width: 820px) {
+    .c2infopic2{
+        align-items: center;
+    }
+    
+}
+
+
+.c2infopic p{
+    /*pic b4 we offer fake jewelries*/
+    font-size: 1.125rem;
+    font-family: 'Spline Sans', sans-serif;
+    text-align: justify;
+    
+}
+
+.c2img1{
+    width: 40vw;
+    height: 55vh;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 360px){
+    .c2img1{
+        width: 100vw;
+        height: 55vh;
+        object-fit: cover;
+    }
+    
+}
+
+@media screen and (min-width: 1000px){
+    .c2img1{
+        width: 40vw;
+        height: 55vh;
+        object-fit: cover;
+    }
+    
+}
+
+.c2infopic2 img {
+    width: 30vw;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 360px) {
+    .c2infopic2 img {
+        width: 100vw;
+        object-fit: cover;
+    }
+    
+}
+
+@media screen and (min-width: 820px) {
+    .c2infopic2 img {
+        width: 95vw;
+        object-fit: cover;
+    }
+    
+}
+
+
+
+@media screen and (min-width: 1000px) {
+    .c2infopic2 img {
+        width: 30vw;
+        object-fit: cover;
+    }
+    
+}
+
+.c2infopic2 p {
+    /*69% bullshit img*/
+    font-size: 4.5rem;
+    font-family:  ABeezee;
+}
+
+.container3{
+    align-items: center;
+    background-color: #ffe26b80;
+}
+
+.container3 h1{
+    font-size: 4.5rem;
+    font-family: 'Advent Pro', sans-serif;
+    text-align: center;
+}
+
+.container3 p{
+    font-size:1.125;
+    font-family: 'Spline Sans', sans-serif;
+    text-align: center;
+}
+
+.c3picbutton{
+    height: 60vh;
+    align-items: center;
+    border-style: none;
+
+}
+
+@media screen and (min-width: 360px){
+    .c3picbutton{
+        height: 140vh;
+        align-items: center;
+        border-style: none;
+    
+    }
+    
+}
+
+@media screen and (min-width: 1000px){
+    .c3picbutton{
+        height: 60vh;
+        align-items: center;
+        border-style: none;
+    
+    }
+    
+}
+
+.c3pic{
+    width: 30vw;
+    height: 50vh;
+    object-fit: cover;
+}
+
+@media screen and (min-width:360px){
+    .c3pic{
+        width: 100vw;
+        height: 30vh;
+        object-fit: cover;
+    }
+    
+}
+
+
+@media screen and (max-width:600px){
+    .c3pic{
+        width: 100vw;
+        height: 40vh;
+        object-fit: cover;
+    }
+    
+}
+
+@media screen and (min-width:768px){
+    .c3pic{
+        width: 100vw;
+        height: 40vh;
+        object-fit: cover;
+    }
+    
+}
+
+@media screen and (min-width:820px){
+    .c3pic{
+        width: 95vw;
+        height: 40vh;
+        object-fit: cover;
+    }
+    
+}
+
+
+
+@media screen and (min-width:1000px){
+    .c3pic{
+        width: 30vw;
+        height: 50vh;
+        object-fit: cover;
+    }
+    
+}
+
+
+
+.container4box1{
+    margin-bottom: 10vh;
+    padding: 10px;
+    align-items: center;
+
+    background-color: #8487bf;
+}
+
+.container4box1 h1{
+    /*NEW FUCKING ARRIVALS*/
+       text-align: center;
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 820px){
+    .container4box1 h2{
+        /*NEW FUCKING ARRIVALS*/
+           font-size: 5rem;
+           font-family: 'Advent Pro', sans-serif;
+       }
+    
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 820px){
+    .container4box1 p{
+        font-size:1.700rem;
+        font-family: 'Spline Sans', sans-serif;
+        text-align: justify;
+    }
+    
+}
+
+
+
+.container4box2 p{
+    text-align: center;
+}
+
+.container4boxitems {
+    background-color: #ffe26b;
+    
+}
+
+.container4boxitems h2{
+    margin: 5px;
+}
+
+
+.container4boxitems p{
+    height: 30vh;
+    margin: 10px;
+    text-align: justify;
+}
+
+@media screen and (min-width:412px) {
+    .container4boxitems p{
+        height: 20vh;
+        margin: 10px;
+        text-align: justify;
+    }
+    
+}
+
+@media screen and (min-width:1000px) {
+    .container4boxitems p{
+        height: 30vh;
+        margin: 10px;
+        text-align: justify;
+    }
+    
+}
+
+.c4img{
+    object-fit: cover;
+}
+
+@media screen and (max-width:600px) {
+    .c4img{
+        height: 50vh;
+        width: 100vw;
+        object-fit: cover;  
+    }
+}
+
+.buttoncont{
+    height: 10vh;
+}
+
+.container4button{
+    height: 8vh;
+    border-style: none;
+}
+
+
+
+/*footer*/
+footer{   
+    background-color: rgba(29, 53, 108, 0.847);
+    padding: 20px;
+
+    color: white;
+}
+
+
+.footerlogo img{
+    height: 25vh;
+}
+
+.container5{
+    margin: 0 auto;
+}
+
+.c5boxitems{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    text-align: justify;
+}
+
+
+
+.c5boxitems h2{
+    font-weight: 800;
+    font-size: 1.5rem;
+    font-family:  ABeezee;
+}
+
+
+
+footer i{
+    letter-spacing: 1vw;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.c5footer{
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 800;
+}
+
+hr{
+    border: 3px solid white;
+}
+ 
