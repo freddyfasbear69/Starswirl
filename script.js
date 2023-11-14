@@ -36,7 +36,7 @@ function toIndex(){
     window.location = "Index.html";
 }
 
-function AddToCart() {
+function addToCart() {
     if (confirm("Add this item to your cart?") == true) {
     alert("Successfully added to cart!");
     } else {
