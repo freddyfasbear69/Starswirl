@@ -179,10 +179,11 @@ nav .nav-link{
     transition: transform 0.3s ease;
 }
 
-.c2button{
+.c2button:hover{
     height: 9vh;
     border-style: none;
-    
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
 }
 
 .container2{
