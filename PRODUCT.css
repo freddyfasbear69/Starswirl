@@ -21,7 +21,7 @@ button:hover{
     }
 
 
-.modal {
+.modal-dialog {
     background-color: #ffe26b;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
     }
