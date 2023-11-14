@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-link:hover{
+        background-color: transparent;
+    }
+
+button{
+        background-color: #8487bfFF;
+        border-style: none;
+        padding: 10px;
+    }
+    
+    
+button:hover{
+        transform: scale(1.05);
+        transition: transform 1.5s ease;
+    }
+
+
+.modal-dialog {
+    background-color: #ffe26b;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
+    }
+
+.modal-body{
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 912px){
+    .modal-body{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+
+.contact {
+     margin-bottom: 20px;
+    }
+
+
+
+.info{
+    padding: 10px;
+}
+
+.modal-body img{
+    width: 50vw;
+    height: 30vh;
+    object-fit: cover;
+}
+
+
+
+@media screen and (min-width: 360px) {
+    .modal-body img{
+        width: 87vw;
+        height: 40vh;
+        object-fit: cover;
+    }
+    
+}
+
+@media screen and (min-width: 412px) {
+    .modal-body img{
+        width: 88vw;
+        height: 50vh;
+        object-fit: cover;
+    }
+    
+}
+
+@media screen and (min-width: 430px) {
+    .modal-body img{
+        width: 88vw;
+        height: 30vh;
+        object-fit: cover;
+    }
+    
+}
+
+@media screen and (min-width: 540px) {
+    .modal-body img{
+        width: 90vw;
+        height: 50vh;
+        object-fit: cover;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .modal-body img{
+        width: 61vw;
+        height: 40vh;
+        object-fit: cover;
+    }
+    
+}
+
+@media screen and (min-width: 820px) {
+    .modal-body img{
+        width: 57vw;
+        height: 40vh;
+        object-fit: cover;
+    }
+    
+}
+
+@media screen and (min-width: 912px){
+    .modal-body img{
+        width: 51vw;
+        height: 40vh;
+        object-fit: cover;
+    }
+    
+}
+
+
+@media screen and (min-width: 1000px) {
+    .modal-body img{
+        width: 50vw;
+        height: 80vh;
+        object-fit: cover;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1030px) {
+    .modal-body img{
+        width: 50vw;
+        height: 130vh;
+        object-fit: cover;
+    }
+    
+}
+
+@media screen and (min-height: 1366px) {
+    .modal-body img{
+        width: 50vw;
+        height: 50vh;
+        object-fit: cover;
+    }
+    
+}
+
+@media screen and (min-height: 1368px){
+    .modal-body img{
+        width: 51vw;
+        height: 40vh;
+        object-fit: cover;
+    }
+    
+}
+
+
+
+
