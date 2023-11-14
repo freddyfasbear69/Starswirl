@@ -28,6 +28,11 @@ p{
     padding: 10px;
 }
 
+.nav-link:hover{
+    background-color: transparent;
+}
+
+
 button:hover{
     border-style: none;
     transform: scale(1.05);
