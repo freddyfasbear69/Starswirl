@@ -58,7 +58,7 @@ button:hover{
 
 @media screen and (min-width: 360px) {
     .modal-body img{
-        width: 50vh;
+        width: 45vh;
         height: 100vw;
         object-fit: cover;
     }
@@ -67,7 +67,7 @@ button:hover{
 
 @media screen and (max-width: 390px) {
     .modal-body img{
-        width: 55vh;
+        width: 50vh;
         height: 100vw;
         object-fit: cover;
     }
@@ -76,7 +76,7 @@ button:hover{
 
 @media screen and (min-width: 414px) {
     .modal-body img{
-        width: 43vh;
+        width: 40vh;
         height: 100vw;
         object-fit: cover;
     }
@@ -86,6 +86,15 @@ button:hover{
 @media screen and (min-width: 768px) {
     .modal-body img{
         width: 45vh;
+        height: 40vw;
+        object-fit: cover;
+    }
+    
+}
+
+@media screen and (min-width: 820px) {
+    .modal-body img{
+        width: 30vh;
         height: 40vw;
         object-fit: cover;
     }
