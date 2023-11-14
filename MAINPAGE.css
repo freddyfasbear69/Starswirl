@@ -230,12 +230,10 @@ nav .nav-link{
     font-family: 'Spline Sans', sans-serif;
 }
 
-.c3picbutton:hover{
+.c3picbutton{
     height: 60vh;
     align-items: center;
     border-style: none;
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
 }
 
 .c3pic{
