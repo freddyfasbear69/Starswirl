@@ -171,13 +171,10 @@ nav .nav-link{
 }
 
 
-.c1button{
+.c1button:hover{
     height: 9vh;
     color: black;
     border-style: none;
-}
-
-.c1button:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease;
 }
@@ -186,11 +183,6 @@ nav .nav-link{
     height: 9vh;
     border-style: none;
     
-}
-
-.c2button:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
 }
 
 .container2{
@@ -238,10 +230,12 @@ nav .nav-link{
     font-family: 'Spline Sans', sans-serif;
 }
 
-.c3picbutton{
+.c3picbutton:hover{
     height: 60vh;
     align-items: center;
     border-style: none;
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
 }
 
 .c3pic{
