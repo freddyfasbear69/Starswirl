@@ -36,10 +36,3 @@ function toIndex(){
     window.location = "Index.html";
 }
 
-function cart() {
-    if (confirm("Add this item to your cart?") == true) {
-        alert("Successfully added to cart!");
-    } else {
-        alert("This item was not added to your cart.");
-    }
-}
