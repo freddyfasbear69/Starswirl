@@ -38,9 +38,9 @@ function toIndex(){
 
 
 function addToCart() {
-if (confirm("Add this item to your cart?") == true) {
-alert("Successfully added to cart!");
-} else {
-alert("This item was not added to your cart.");
-}
-}
+    if (confirm("Add this item to your cart?") == true) {
+    alert("Successfully added to cart!");
+    } else {
+    alert("This item was not added to your cart.");
+    }
+    }

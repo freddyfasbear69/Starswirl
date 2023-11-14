@@ -34,7 +34,6 @@ p{
 
 
 button:hover{
-    border-style: none;
     transform: scale(1.05);
     transition: transform 1s ease;
 }
