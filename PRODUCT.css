@@ -54,9 +54,27 @@ button:hover{
     padding: 10px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 375px) {
     .modal-body img{
-        width: 50vh;
+        width: 55vh;
+        height: 100vw;
+        object-fit: cover;
+    }
+    
+}
+
+@media screen and (min-width: 390px) {
+    .modal-body img{
+        width: 40vh;
+        height: 100vw;
+        object-fit: cover;
+    }
+    
+}
+
+@media screen and (min-width: 414px) {
+    .modal-body img{
+        width: 40vh;
         height: 100vw;
         object-fit: cover;
     }
