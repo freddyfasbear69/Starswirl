@@ -121,7 +121,7 @@
                         <h2>$5,150</h2>
                     </div>
 
-                    <button data-bs-toggle="modal" data-bs-target="#crescentModal">READ MORE</button>
+                    <button data-bs-toggle="modal" data-bs-target="#crescentModalToggle">READ MORE</button>
 
                 </div>
 
@@ -137,7 +137,7 @@
                         
                     </div>
 
-                    <button data-bs-toggle="modal" data-bs-target="#spiralModal">READ MORE</button>
+                    <button data-bs-toggle="modal" data-bs-target="#spiralModalToggle">READ MORE</button>
 
                 </div>
 
@@ -149,7 +149,7 @@
 
 
             <!--Modal thing, do not touch-->
-            <div class="mcontainer1 modal fade" id="spiralModal" tabindex="-1" aria-labelledby="spiralModalLabel" aria-hidden="true">
+            <div class="mcontainer1 modal fade" id="spiralModalToggle" tabindex="-1" aria-labelledby="spiralModalLabel" aria-hidden="true">
              <div class="modal-dialog">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 <div class="modal-body">
@@ -171,7 +171,7 @@
              </div>
             </div>
 
-            <div class="mcontainer1 modal fade" id="crescentModal" tabindex="-1" aria-labelledby="crescentModalLabel" aria-hidden="true">
+            <div class="mcontainer1 modal fade" id="crescentModalToggle" tabindex="-1" aria-labelledby="crescentModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                    <div class="modal-body">
@@ -196,14 +196,18 @@
 
                <!--YUNG MODAL NUNG ADD TO CART-->
 
-               <div class="mcontainer1 modal fade" id="addtocartModalToggle2" tabindex="-1" aria-labelledby="addtocartModalLabel" aria-hidden="true">
+               <div class="modal fade" id="addtocart" tabindex="-1" aria-labelledby="addtocartModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
-                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                   <div class="modal-body">
-                       <p>You have successfully added this item on your cart!</p>
-                   </div>
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>You have successfully added this item to your cart!</p>
+                        </div>
+                    </div>
                 </div>
-               </div>
+            </div>
 
         <!--Footer-->
 
