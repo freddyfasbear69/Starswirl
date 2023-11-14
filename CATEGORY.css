@@ -280,7 +280,7 @@ nav .nav-link{
 }
 
 @media screen and (max-width:1000px) {
-    .pcontainer2pics button: {
+    .pcontainer2pics button {
         width: 30vw;
         border-style: none;
         background-color: #c2b78cFF;
@@ -289,6 +289,7 @@ nav .nav-link{
         color: black;   
     } 
 }
+
 
 
 /*footer*/
