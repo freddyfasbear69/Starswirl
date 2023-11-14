@@ -43,7 +43,7 @@ p{
 button:hover{
     border-style: none;
     transform: scale(1.05);
-    transition: transform 1.5 ease;
+    transition: transform 1.5s ease;
 }
 
 .logo{
@@ -280,15 +280,13 @@ nav .nav-link{
 }
 
 @media screen and (max-width:1000px) {
-    .pcontainer2pics button:hover {
+    .pcontainer2pics button: {
         width: 30vw;
     border-style: none;
         background-color: #c2b78cFF;
         font-family: 'Spline Sans', sans-serif;
         font-size: 1.125rem;
         color: black;
-        transform: scale(1.05);
-        transition: transform 0.5s ease;
         
     }
     

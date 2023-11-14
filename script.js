@@ -28,11 +28,5 @@ function toPendants(){
     window.location = "Pendants.html";
 }
 
-function toNecklace(){
-    window.location = "Necklace.html";
-}
 
-function toIndex(){
-    window.location = "Index.html";
-}
 
