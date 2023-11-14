@@ -172,35 +172,6 @@ nav .nav-link{
 
 
 
-@media screen and (min-width: 768px) {
-    .pcontainer1{
-        margin-top: 70vh;
-    }
-    
-}
-
-@media screen and (min-width: 820px) {
-    .pcontainer1{
-        margin-top: 50vh;
-    }
-    
-}
-
-@media screen and (min-width: 912px) {
-    .pcontainer1{
-        margin-top: 70vh;
-    }
-    
-}
-
-@media screen and (min-width: 1024px) {
-    .pcontainer1{
-        margin-top: 50vh;
-    }
-    
-}
-
-
 .pcontainer2 {
     /*Imgs + text + button*/
     margin: 0 auto;
