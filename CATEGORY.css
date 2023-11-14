@@ -46,14 +46,7 @@ p{
     
 }
 
-@media screen and (min-height:1366px){
-    .logo img{
-        align-items:first baseline;
-        height: 10vh;
-        background-color: red;
-    }
-    
-}
+
 
 /*header and nav*/
 
