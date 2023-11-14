@@ -187,7 +187,19 @@
                            ___________________________________
                            <p>8 Sizes Available</p>
                            <p>6.9 OZ.</p>
-                           <button>ADD TO CART</button>
+                           <button onclick="cart()">ADD TO CART</button>
+
+                           <script>
+                            function cart() {
+                                if (confirm("Add this item to your cart?") == true) {
+                                    alert("Successfully added to cart!");
+                                } else {
+                                    alert("This item was not added to your cart.");
+                                }
+                            }
+                            </script>
+
+
                        </div> 
                    </div>
                 </div>
