@@ -262,6 +262,11 @@ nav .nav-link{
      }
  }
 
+.pcontainer2pics p{
+    height: 50vh;
+    background-color: red;
+
+}
 
 
 
