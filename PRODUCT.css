@@ -56,7 +56,7 @@ button:hover{
 
 @media screen and (max-width: 800px) {
     .modal-body img{
-        width: 70vh;
+        width: 50vh;
         height: 100vw;
         object-fit: cover;
     }
