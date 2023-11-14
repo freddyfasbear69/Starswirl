@@ -142,6 +142,13 @@ nav .nav-link{
     
 }
 
+@media screen and (min-width:820px) {
+    .pcontainer1{
+        margin-top: 80vh;
+    }
+    
+}
+
 @media screen and (min-width:1024px) {
     .pcontainer1{
         margin-top: 70vh;
