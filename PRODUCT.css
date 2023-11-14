@@ -63,7 +63,7 @@ button:hover{
     
 }
 
-@media screen and (min-width: 390px) {
+@media screen and (min-width: 360px) {
     .modal-body img{
         width: 40vh;
         height: 100vw;
@@ -80,5 +80,25 @@ button:hover{
     }
     
 }
+
+@media screen and (min-width: 768px) {
+    .modal-body img{
+        width: 50vh;
+        height: 100vw;
+        object-fit: cover;
+    }
+    
+}
+
+@media screen and (min-width: 1000px) {
+    .modal-body img{
+        width: 50vh;
+        height: 30vw;
+        object-fit: cover;
+    }
+    
+}
+
+
 
 
