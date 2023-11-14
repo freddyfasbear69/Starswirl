@@ -230,6 +230,17 @@ nav .nav-link{
     }
 }
 
+@media screen and (min-height:600px) {
+    .pcontainer2pics img {
+         /*Yung images*/
+         width: 100%;
+         height: 60vh;
+         object-fit: cover;
+         
+         
+     }
+ }
+
 
 
 
