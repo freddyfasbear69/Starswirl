@@ -17,7 +17,7 @@ button{
     
 button:hover{
         transform: scale(1.05);
-        transition: transform 1.5 ease;
+        transition: transform 1.5s ease;
     }
 
 
@@ -25,6 +25,10 @@ button:hover{
     background-color: #ffe26b;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
     }
+
+.modal-body{
+    display: flex;
+}
 
 
 .contact {
@@ -34,12 +38,14 @@ button:hover{
 .modal-body img{
     width: 50vh;
     height: 30vw;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 800px) {
     .modal-body img{
         width: 70vh;
         height: 100vw;
+        object-fit: cover;
     }
     
 }
