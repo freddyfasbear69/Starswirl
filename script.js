@@ -36,4 +36,9 @@ function toIndex(){
     window.location = "Index.html";
 }
 
+.function cart(){
+    
 
+
+
+}
