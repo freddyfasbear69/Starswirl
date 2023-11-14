@@ -40,6 +40,14 @@ p{
     
 }
 
+@media screen and (min-height:1366px){
+    .logo img{
+        align-items: start;
+        height: 10vh;
+    }
+    
+}
+
 /*header and nav*/
 
 nav{
