@@ -15,7 +15,7 @@ h1{
 @media screen and (min-with: 1680px) and (max-width:1700px){
 h1{
     font-family: 'Advent Pro', sans-serif;
-    font-size: 50rem;
+    font-size: 20rem;
 }}
 
 a{
