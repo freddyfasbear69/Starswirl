@@ -25,7 +25,7 @@ function toRings(){
 }
 
 function toPendants(){
-    window.location = "Pendants.html";
+    window.location = "pendant.html";
 }
 
 
