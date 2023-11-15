@@ -608,7 +608,7 @@ button{
 
 @media screen and (min-width:1000px) {
     .container4boxitems p{
-        height: 40vh;
+        height: 50vh;
         margin: 10px;
         text-align: justify;
     }
