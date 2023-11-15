@@ -471,8 +471,15 @@ nav .nav-link{
 }
 
 
+@media screen and (min-width:1024px){
+    .gridimg{
+        height: 20vh;
+        object-fit: cover;
+    }
+}
 
-@media screen and (min-width:1000px){
+
+@media screen and (min-width:1200px){
     .gridimg{
         height: 25vh;
         object-fit: cover;
