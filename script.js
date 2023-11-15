@@ -13,7 +13,7 @@ function toEarrings(){
 }
 
 function toBracelets(){
-    window.location = "Bracelets.html";
+    window.location = "bracelet.html";
 }
 
 function toWatch(){
@@ -21,7 +21,7 @@ function toWatch(){
 }
 
 function toRings(){
-    window.location = "Rings.html";
+    window.location = "Ring.html";
 }
 
 function toPendants(){
