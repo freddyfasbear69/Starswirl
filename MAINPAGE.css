@@ -12,11 +12,11 @@ h1{
     font-size: 4.5rem;
 }
 
-@media screen and (min-with: 1680px) and (max-width:1700px)
+@media screen and (min-with: 1680px) and (max-width:1700px){
 h1{
     font-family: 'Advent Pro', sans-serif;
     font-size: 10rem;
-}
+}}
 
 a{
     font-family: 'Spline Sans', sans-serif;
