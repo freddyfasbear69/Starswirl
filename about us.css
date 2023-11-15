@@ -139,6 +139,17 @@ nav .nav-link{
     
 }
 
+@media screen and (min-width:100px){
+    .acontainer1{
+    margin-top: 55vh;
+    text-align: center;
+    height: 100vh;
+    background-color: #8487bf;
+    }
+    
+}
+
+
 @media screen and (min-width:360px){
     .acontainer1{
     margin-top: 50vh;
@@ -227,16 +238,6 @@ nav .nav-link{
 }   
     
 
-
-@media screen and (min-width:100px){
-    .acontainer1{
-    margin-top: 55vh;
-    text-align: center;
-    height: 100vh;
-    background-color: #8487bf;
-    }
-    
-}
 
 
 
