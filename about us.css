@@ -506,7 +506,7 @@ nav .nav-link{
 
 @media screen and (min-width: 411px){
     .gridimg{
-        height: 20.5vh;
+        height: 23vh;
         object-fit: cover;
     }
 }
