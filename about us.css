@@ -504,6 +504,13 @@ nav .nav-link{
     }
 }
 
+@media screen and (min-width: 411px){
+    .gridimg{
+        height: 20.5vh;
+        object-fit: cover;
+    }
+}
+
 @media screen and (min-width: 412px){
     .gridimg{
         height: 20.3vh;
