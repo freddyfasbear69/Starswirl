@@ -180,6 +180,16 @@ nav .nav-link{
     
 }
 
+@media screen and (min-width: 411px){
+    .acontainer1{
+    margin-top: 55vh;
+    text-align: center;
+    height: 155vh;
+    background-color: #8487bf;
+    }
+    
+}
+
 
 
 @media screen and (min-width: 414px){
