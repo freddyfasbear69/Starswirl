@@ -43,8 +43,8 @@ button{
 }
 
 
-button:hover:before,
-button:hover:after {
+button:hover::after,
+button:hover::after {
     border-color: #fff;
     transition: border-color 0s, width 0.3s height 0.3s;
     width:100%;
