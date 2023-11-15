@@ -226,6 +226,17 @@ nav .nav-link{
  
 }
 
+@media screen and (min-width:1024px){
+    .acontainer1{
+    margin-top: 50vh;
+    text-align: center;
+    height: 110vh;
+    background-color: #8487bf;
+
+    }
+ 
+}
+
 @media screen and (min-width:1200px){
     .acontainer1{
         margin-top: 40vh;
