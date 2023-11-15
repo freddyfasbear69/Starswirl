@@ -575,6 +575,14 @@ button{
     
 }
 
+@media screen and (min-width: 1680px) and (max-width: 1700px){
+    .container4box1 p{
+        font-size:1.200rem;
+        font-family: 'Spline Sans', sans-serif;
+        text-align: justify;
+    }
+    
+}
 
 
 .container4box2 p{

@@ -461,6 +461,12 @@ nav .nav-link{
 }
 
 
+.acontainerbox{
+    background-color: #78798f;
+    margin: 10px;
+}
+
+
 .gridimg{
     height: 25vh;
     object-fit: cover;
@@ -634,10 +640,20 @@ nav .nav-link{
   
 }
 
-@media screen and (min-width: 540px) and (max-width: 50px) {
+@media screen and (min-width: 540px) and (max-width: 560px) {
     .acontainerinfo1{
         justify-content: right;
         height: 200vh;
+        
+      
+    }
+    
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1060px) {
+    .acontainerinfo1{
+        justify-content: right;
+        height: 90vh;
         
       
     }
@@ -648,14 +664,6 @@ nav .nav-link{
 
 
 
-.acontainerbox{
-    background-color: #78798f !important;
-    margin: 10px;
-}
-
-@media screen {
-    
-}
 
 
 .acontainerinfo3{
@@ -669,6 +677,16 @@ nav .nav-link{
 @media screen and (min-width: 1024px) and (max-width: 1030px){
     .acontainerinfo3{
         height: 70vh;
+        text-align: justify;
+        padding: 10px;
+        
+        
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1300px){
+    .acontainerinfo3{
+        height: 60vh;
         text-align: justify;
         padding: 10px;
         
