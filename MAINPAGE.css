@@ -574,7 +574,7 @@ button{
 .container4box1{
     white-space: nowrap; 
     overflow: hidden;
-    text-overflow: ellipsis; 
+    text-overflow: clip ellipsis; 
 }
 
 
