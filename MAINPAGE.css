@@ -572,9 +572,9 @@ button{
 }
 
 .container4box1{
-    white-space: nowrap; 
+    white-space: wrap; 
     overflow: hidden;
-    text-overflow: clip ellipsis; 
+    text-overflow: ellipsis; 
 }
 
 
