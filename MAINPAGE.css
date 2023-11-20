@@ -40,30 +40,17 @@ p{
 
 button{
     border-style: none;
-}
-
-
-button{ 
     padding: 10px 40px;  
     overflow:hidden;
-  }
-
-button:before {
-    font-family: FontAwesome;
-    content:"\f07a";
-    position: absolute;
-    top: 11px;
-    left: -30px;
-    transition: all 300ms ease;
 }
 
-button:hover:before {
-    left: 7px;
-  }
 
-.logo{
-    display: flex;
+button:hover{
+    background-color: transparent;
+    text-decoration: underline;
+    transition: 1s;
 }
+
 
 .logo img{
     height: 32vh;
