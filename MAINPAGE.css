@@ -698,7 +698,7 @@ button{
 footer{   
     background-color: rgba(29, 53, 108, 0.847);
     padding: 20px;
-
+    text-align: justify;
     color: white;
 }
 
